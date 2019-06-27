@@ -63,21 +63,21 @@ public class ChallengeApplication {
 
 		class ExtendedDoctor extends Doctor {
 
-			private String ageStart;
+			private String ageAtStart;
 			private String numberOfEpisode; 
 		
-			public ExtendedDoctor(String name, String number, String ageStart,String numberOfEpisode) {
+			public ExtendedDoctor(String name, String number, String ageAtStart,String numberOfEpisode) {
 				super(name, number);
-				this.ageStart = ageStart;
+				this.ageAtStart = ageAtStart;
 				this.numberOfEpisode = numberOfEpisode;
 			}
 
-		public String getAgeStart() {
-			return ageStart;
+		public String getageAtStart() {
+			return ageAtStart;
 		}
 
-		public void setAgeStart(String ageStart) {
-			this.ageStart = ageStart;
+		public void setageAtStart(String ageAtStart) {
+			this.ageAtStart = ageAtStart;
 		}
 
 		public String getNumberOfEpisode() {
